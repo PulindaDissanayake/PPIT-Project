@@ -55,6 +55,10 @@ nav a {
   border-radius: 12px;
 }
 
+.projects_list div:hover {
+  transform: scale(1.15);
+}
+
 .img-project {
   padding: 10px;
   height: 200px;

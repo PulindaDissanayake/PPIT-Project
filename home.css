@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Trebuchet MS", sans-serif !important;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #e1f3ff;
+}
+
+nav a {
+  cursor: pointer;
+}
+
+.content {
+  color: black;
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: white !important;
+}
+
+.details_section_one p {
+  line-height: 1.6 !important;
+  font-size: 18px !important;
+}
+
+.details_section_two {
+  background-color: #e1f3ff;
+  padding-bottom: 400px !important;
+}
+
+.details_section_three_columns {
+  background-color: white;
+  margin-top: -390px;
+  border-radius: 25px;
+  border: 1px solid #e6ecf8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.details_section_three_lc {
+  border-right: 1px solid #e6ecf8;
+}
+
+.projects_list div {
+  padding: 0 !important;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+}
+
+.img-project {
+  padding: 10px;
+  height: 200px;
+  object-position: center;
+  object-fit: contain;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(31, 50, 150, 0.9);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  margin: 0 !important;
+}
+
+.projects_list div:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(31, 50, 150, 1);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#contacts {
+  background-color: #e1f3ff;
+}
+.social__icons a {
+  color: black;
+}

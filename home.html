@@ -1,9 +1,322 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Project</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-</body>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Project</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i>
+    </button>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand font-weight-bold pl-3" href="#"
+        ><i class="fa fa-eercast pr-2 fa-lg" aria-hidden="true"></i
+        >PORTFORLIO</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto font-weight-bold">
+          <li class="nav-item px-md-3">
+            <a class="nav-link" href="#"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item px-md-3">
+            <a class="nav-link" onclick="toAbout()">About</a>
+          </li>
+          <li class="nav-item px-md-3" ">
+            <a class="nav-link" onclick="toServices()">Services</a>
+          </li>
+          <li class="nav-item px-md-3">
+            <a class="nav-link" onclick="toContacts()">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content px-md-0 px-3">
+      <div class="jumbotron text-center">
+        <h1 class="display-3">Front-end Developer & Designer</h1>
+        <img src="images/developer.png" alt="developer" class="img-fluid" />
+      </div>
+
+      <div class="details text-center">
+        <div class="row justify-content-center">
+          <div class="col col-md-8 details_section_one" id="about">
+            <h1>Hi, I’m Pulinda Dissanayake. Nice to meet you.</h1>
+            <p>
+              Since beginning my journey as a freelance designer nearly 02 years
+              ago, I've done remote work for agencies, consulted for startups,
+              and collaborated with talented people to create digital products
+              for both business and consumer use. I'm quietly confident,
+              naturally curious, and perpetually working on improving my chops
+              one design problem at a time.
+            </p>
+          </div>
+        </div>
+
+        <div class="details_section_two p-3 pb-md-5">
+          <img src="images/computer.svg" alt="developer" class="img-fluid" />
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-10">
+            <div class="row details_section_three_columns">
+              <div
+                class="
+                  col col-md-6 col-12
+                  details_section_three_lc
+                  py-md-5 py-3
+                "
+              >
+                <img
+                  src="images/frontend.svg"
+                  alt="developer_fe"
+                  class="img-fluid"
+                />
+                <h3 class="pt-4">Front-end Developer</h3>
+                <h6 class="mx-md-5 mx-3 mb-5">
+                  I like coding things from the beginning, and it's a pleasure
+                  to successfully bring browser ideas to life.
+                </h6>
+                <h5 style="color: #1f3296">Techniques I use:</h5>
+                <h6>HTML, JS, Java, CSS, Sass, ReactJS</h6>
+                <h5 style="color: #1f3296" class="mt-5">Dev Tools:</h5>
+                <h6 style="line-height: 1.6">
+                  Atom <br />
+                  Bitbucket <br />
+                  Bootstrap <br />
+                  VS Code <br />
+                  IntelliJ <br />
+                  Codepen <br />
+                  Github <br />
+                  Gitlab <br />
+                  Terminal
+                </h6>
+                <hr class="d-md-none d-block" />
+              </div>
+              <div class="col col-md-6 col-12 py-md-5 py-2">
+                <img
+                  src="images/designer.svg"
+                  alt="designer"
+                  class="img-fluid"
+                />
+                <h3 class="pt-4">Designer</h3>
+                <h6 class="mx-md-5 mx-3 mb-5">
+                  I appreciate the simple content structure, clean design
+                  patterns and thoughtful interaction.
+                </h6>
+                <h5 style="color: #1f3296">Things I like to create:</h5>
+                <h6>UX, UI, Flyers, Web, Mobile, Apps, Logos</h6>
+                <h5 style="color: #1f3296" class="mt-5">Design Tools:</h5>
+                <h6 style="line-height: 1.6">
+                  Figma <br />
+                  Marvel <br />
+                  Pen & Paper <br />
+                  Sketch <br />
+                  Webflow <br />
+                  Zeplin <br />
+                  Axure <br />
+                  Craft <br />
+                  Proto.io.
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5" id="services">
+          <h2>My Recent Works</h2>
+          I do various types of web related work. Here are few design projects I found to be
+          interesting and I've worked on recently. <br />Want to
+          see more? <br />
+          <a href="mailto:dpulinda@gmail.com">Email me</a>
+        </div>
+
+        <div>
+          <div class="row justify-content-around mt-3 mx-md-4 projects_list">
+            <div class="col col-md-3 col-5 mx-1 my-2 my-md-4">
+              <img
+                src="images/Image_1.png"
+                alt="project_img"
+                class="img-project img-fluid"
+              />
+              <p class="img__description p-2">
+                Web Development for Hilton Hotels & Resorts, a global brand of
+                full service hotels and resorts <br />
+                <button type="button" class="btn btn-light mt-md-4">
+                  More..
+                </button>
+              </p>
+            </div>
+            <div class="col col-md-3 col-5 mx-1 my-2 my-md-4">
+              <img
+                src="images/Hiru.jpg"
+                alt="project_img"
+                class="img-project img-fluid"
+              />
+              <p class="img__description p-2">
+                Web designs for Hiru News, the most visited website in Sri Lanka
+                <br />
+                <button type="button" class="btn btn-light mt-md-4">
+                  More..
+                </button>
+              </p>
+            </div>
+            <div class="col col-md-3 col-5 mx-1 my-2 my-md-4">
+              <img
+                src="images/Singer.png"
+                alt="project_img"
+                class="img-project img-fluid"
+              />
+              <p class="img__description p-2">
+                A mobile app for Singer SL to buy multi-brand attractive
+                products online<br />
+                <button type="button" class="btn btn-light mt-md-4">
+                  More..
+                </button>
+              </p>
+            </div>
+            <div class="col col-md-3 col-5 mx-1 my-2 my-md-4">
+              <img
+                src="images/Keells_Super_logo_1.png"
+                alt="project_img"
+                class="img-project img-fluid"
+              />
+              <p class="img__description p-2">
+                Web system for Keells for in-store shopping, in-store pick-up
+                and delivery<br />
+                <button type="button" class="btn btn-light mt-md-4">
+                  More..
+                </button>
+              </p>
+            </div>
+            <div class="col col-md-3 col-5 mx-1 my-2 my-md-4">
+              <img
+                src="images/Elephant_House_logo.png"
+                alt="project_img"
+                class="img-project img-fluid"
+              />
+              <p class="img__description p-2">
+                Web System for Elephant House who produces carbonated beverages,
+                ice cream and processed meat products<br />
+                <button type="button" class="btn btn-light mt-md-4">
+                  More..
+                </button>
+              </p>
+            </div>
+            <div class="col col-md-3 col-5 mx-1 my-2 my-md-4">
+              <img
+                src="images/TV_Derana_Logo.png"
+                alt="project_img"
+                class="img-project img-fluid"
+              />
+              <p class="img__description p-2">
+                Website for TV Derana, Sri Lanka's Premium Entertainment
+                Channel<br />
+                <button type="button" class="btn btn-light mt-md-4">
+                  More..
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="contacts">
+          <div class="row justify-content-center py-5">
+            <div class="col col-md-4 col-10 pb-5 pb-md-0 mb- mb-md-0">
+              <i class="fa fa-eercast fa-2x" aria-hidden="true"></i><br />
+              <h5 class="pt-3">
+                Living, learning, & leveling up one day at a time.
+              </h5>
+            </div>
+            <div class="col col-md-6 col-10">
+              <div class="row social__icons justify-content-center">
+                <div class="col col-auto">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i
+                      class="fa fa-facebook-square fa-2x"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
+                <div class="col col-auto">
+                  <a href="https://twitter.com/?lang=en" target="_blank">
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="col col-auto">
+                  <a href="https://lk.linkedin.com/" target="_blank">
+                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="col col-auto">
+                  <a href="https://github.com/" target="_blank">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <h6 class="pt-3">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script><br/>
+                Pulinda Dissanayake | All Rights Reserved
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="home.js"></script>
+  </body>
 </html>

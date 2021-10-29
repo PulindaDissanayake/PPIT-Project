@@ -89,7 +89,7 @@ nav a {
   opacity: 1;
 }
 
-#myBtn {
+#myButton {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -102,7 +102,7 @@ nav a {
   border-radius: 4px;
 }
 
-#myBtn:hover {
+#myButton:hover {
   background-color: rgba(0, 0, 0, 1);
   color: white;
 }

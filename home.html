@@ -16,8 +16,9 @@
 </head>
 
 <body>
-  <i class="fa fa-arrow-up fa-2x" aria-hidden="true" onclick="topFunction()" id="myBtn"></i>
+  <i class="fa fa-arrow-up fa-2x" aria-hidden="true" onclick="scrollTopFunction()" id="myButton"></i>
 
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand font-weight-bold pl-3" href="#"><i class="fa fa-eercast pr-2 fa-lg"
         aria-hidden="true"></i>PORTFORLIO</a>
@@ -38,7 +39,8 @@
             <a class=" nav-link" onclick="toServices()">Projects</a>
         </li>
         <li class="nav-item px-md-3">
-          <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Contact</a>
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Contact Us <i
+              class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
         </li>
       </ul>
     </div>
@@ -54,7 +56,7 @@
       <div class="details text-center">
         <div class="row justify-content-center">
           <div class="col col-md-8 details_section_one" id="about">
-            <h1 class="display-weight">Hi, I’m Pulinda Dissanayake. <br/>Nice to meet you.</h1>
+            <h1 class="display-weight">Hi, I’m Pulinda Dissanayake. <br />Nice to meet you.</h1>
             <p>
               Since beginning my journey as a freelance designer nearly 02 years
               ago, I've done remote work for agencies, consulted for startups,
@@ -66,6 +68,7 @@
           </div>
         </div>
 
+        <!-- Skills -->
         <div class="details_section_two p-3 pb-md-5">
           <img src="images/computer.svg" alt="developer" class="img-fluid" />
         </div>
@@ -125,6 +128,7 @@
           </div>
         </div>
 
+        <!-- Services -->
         <div class="mt-5" id="services">
           <h2 class="display-weight">My Recent Works</h2>
           <h5>I do various types of web related work. Here are few design projects I found to be
@@ -201,6 +205,7 @@
     </div>
   </div>
 
+  <!-- Contacts Footer -->
   <div id="contacts">
     <div class="row justify-content-center py-5 mt-4 text-center" style="background-image: url('images/footer.png');">
       <div class="col col-md-4 col-10 pb-5 pb-md-0 mb- mb-md-0">

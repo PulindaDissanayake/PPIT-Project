@@ -112,8 +112,16 @@ nav a {
 }
 
 #contacts {
-  background-color: #e1f3ff;
+  color: #e1f3ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+.social__icons a i {
+  color: #e1f3ff !important;
+}
+
 .social__icons a {
   color: black;
 }
@@ -140,9 +148,8 @@ nav a {
 }
 
 .btn-primary {
-  background-color: #46dbc9 !important;
-  border: 1px solid #46dbc9 !important;
-  box-shadow: none !important;
+  background-color: rgba(31, 50, 150, 1) !important;
+  border: 1px solid rgba(31, 50, 150, 1) !important;
 }
 
 ::-webkit-scrollbar {

@@ -152,6 +152,10 @@ nav a {
   border: 1px solid rgba(31, 50, 150, 1) !important;
 }
 
+.display-weight {
+  font-weight: 600 !important;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

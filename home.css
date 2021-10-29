@@ -81,6 +81,7 @@ nav a {
   margin: 0 !important;
   border-radius: 12px;
   text-overflow: ellipsis;
+  font-size: 15px;
 }
 
 .projects_list div:hover .img__description {
@@ -104,6 +105,10 @@ nav a {
 #myBtn:hover {
   background-color: rgba(0, 0, 0, 1);
   color: white;
+}
+
+#services a {
+  font-size: 18px !important;
 }
 
 #contacts {

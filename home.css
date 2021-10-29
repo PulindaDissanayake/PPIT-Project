@@ -69,6 +69,7 @@ nav a {
 
 .img__description {
   position: absolute;
+  width: inherit;
   top: 0;
   bottom: 0;
   left: 0;
@@ -79,6 +80,7 @@ nav a {
   opacity: 0;
   margin: 0 !important;
   border-radius: 12px;
+  text-overflow: ellipsis;
 }
 
 .projects_list div:hover .img__description {
@@ -108,6 +110,33 @@ nav a {
 }
 .social__icons a {
   color: black;
+}
+
+.modal-header {
+  border: none !important;
+}
+
+.modal-footer {
+  border: none !important;
+}
+
+.contact_img {
+  width: 400px !important;
+}
+
+.contact_form input {
+  width: 100% !important;
+  margin-bottom: 10px !important;
+}
+
+.contact_form textarea {
+  width: 100% !important;
+}
+
+.btn-primary {
+  background-color: #46dbc9 !important;
+  border: 1px solid #46dbc9 !important;
+  box-shadow: none !important;
 }
 
 ::-webkit-scrollbar {

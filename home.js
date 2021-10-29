@@ -18,16 +18,11 @@ function topFunction() {
 }
 
 function toServices() {
-    var elmnt = document.getElementById("services");
-    elmnt.scrollIntoView();
-  }
+  var elmnt = document.getElementById("services");
+  elmnt.scrollIntoView();
+}
 
-function toContacts() {
-    var elmnt = document.getElementById("contacts");
-    elmnt.scrollIntoView();
-  }
-
-  function toAbout() {
-    var elmnt = document.getElementById("about");
-    elmnt.scrollIntoView();
-  }
+function toAbout() {
+  var elmnt = document.getElementById("about");
+  elmnt.scrollIntoView();
+}

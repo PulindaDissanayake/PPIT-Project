@@ -1,70 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Portfolio | Pulinda</title>
-    <link rel="stylesheet" href="home.css" />
-  </head>
-  <body>
-      <i class="fa fa-arrow-up fa-2x" aria-hidden="true" onclick="topFunction()" id="myBtn"></i>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand font-weight-bold pl-3" href="#"
-        ><i class="fa fa-eercast pr-2 fa-lg" aria-hidden="true"></i
-        >PORTFORLIO</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Portfolio | Pulinda Dissanayake</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto font-weight-bold">
-          <li class="nav-item px-md-3">
-            <a class="nav-link" href="#"
-              >Home<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item px-md-3">
-            <a class="nav-link" onclick="toAbout()">About</a>
-          </li>
-          <li class="nav-item px-md-3" ">
-            <a class="nav-link" onclick="toServices()">Projects</a>
-          </li>
-          <li class="nav-item px-md-3">
-            <a class="nav-link" onclick="toContacts()">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<body>
+  <i class="fa fa-arrow-up fa-2x" aria-hidden="true" onclick="topFunction()" id="myBtn"></i>
 
-    <div class="content px-md-0 px-3">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand font-weight-bold pl-3" href="#"><i class="fa fa-eercast pr-2 fa-lg"
+        aria-hidden="true"></i>PORTFORLIO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto font-weight-bold">
+        <li class="nav-item px-md-3">
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-md-3">
+          <a class="nav-link" onclick="toAbout()">About</a>
+        </li>
+        <li class="nav-item px-md-3" ">
+            <a class=" nav-link" onclick="toServices()">Projects</a>
+        </li>
+        <li class="nav-item px-md-3">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="content">
       <div class="jumbotron text-center">
         <h1 class="display-3">Web Developer & Designer</h1>
         <img src="images/developer.png" alt="developer" class="img-fluid" />
@@ -91,18 +72,12 @@
         <div class="row justify-content-center">
           <div class="col col-10">
             <div class="row details_section_three_columns">
-              <div
-                class="
+              <div class="
                   col col-md-6 col-12
                   details_section_three_lc
                   py-md-5 py-3
-                "
-              >
-                <img
-                  src="images/frontend.svg"
-                  alt="developer_fe"
-                  class="img-fluid"
-                />
+                ">
+                <img src="images/frontend.svg" alt="developer_fe" class="img-fluid" />
                 <h3 class="pt-4">Web Developer</h3>
                 <h6 class="mx-md-5 mx-3 mb-5">
                   I like coding things from the beginning, and it's a pleasure
@@ -125,11 +100,7 @@
                 <hr class="d-md-none d-block" />
               </div>
               <div class="col col-md-6 col-12 py-md-5 py-2">
-                <img
-                  src="images/designer.svg"
-                  alt="designer"
-                  class="img-fluid"
-                />
+                <img src="images/designer.svg" alt="designer" class="img-fluid" />
                 <h3 class="pt-4">Designer</h3>
                 <h6 class="mx-md-5 mx-3 mb-5">
                   I appreciate the simple content structure, clean design
@@ -165,11 +136,7 @@
         <div>
           <div class="row justify-content-around mt-3 mx-md-4 projects_list">
             <div class="col col-md-3 col-5 mx-1 my-4">
-              <img
-                src="images/Image_1.png"
-                alt="project_img"
-                class="img-project img-fluid"
-              />
+              <img src="images/Image_1.png" alt="project_img" class="img-project img-fluid" />
               <p class="img__description p-2">
                 Web Development for Hilton Hotels & Resorts, a global brand of
                 full service hotels and resorts <br />
@@ -179,11 +146,7 @@
               </p>
             </div>
             <div class="col col-md-3 col-5 mx-1 my-4">
-              <img
-                src="images/Hiru.jpg"
-                alt="project_img"
-                class="img-project img-fluid"
-              />
+              <img src="images/Hiru.jpg" alt="project_img" class="img-project img-fluid" />
               <p class="img__description p-2">
                 Web designs for Hiru News, the most visited website in Sri Lanka
                 <br />
@@ -193,11 +156,7 @@
               </p>
             </div>
             <div class="col col-md-3 col-5 mx-1 my-4">
-              <img
-                src="images/Singer.png"
-                alt="project_img"
-                class="img-project img-fluid"
-              />
+              <img src="images/Singer.png" alt="project_img" class="img-project img-fluid" />
               <p class="img__description p-2">
                 A mobile app for Singer SL to buy multi-brand attractive
                 products online<br />
@@ -207,11 +166,7 @@
               </p>
             </div>
             <div class="col col-md-3 col-5 mx-1 my-4">
-              <img
-                src="images/Keells_Super_logo_1.png"
-                alt="project_img"
-                class="img-project img-fluid"
-              />
+              <img src="images/Keells_Super_logo_1.png" alt="project_img" class="img-project img-fluid" />
               <p class="img__description p-2">
                 Web system for Keells for in-store shopping, in-store pick-up
                 and delivery<br />
@@ -221,25 +176,17 @@
               </p>
             </div>
             <div class="col col-md-3 col-5 mx-1 my-4">
-              <img
-                src="images/Elephant_House_logo.png"
-                alt="project_img"
-                class="img-project img-fluid"
-              />
+              <img src="images/Elephant_House_logo.png" alt="project_img" class="img-project img-fluid" />
               <p class="img__description p-2">
-                Web System for Elephant House who produces carbonated beverages,
-                ice cream and processed meat products<br />
+                Web System for Elephant House who produces beverages,
+                ice cream and meat products<br />
                 <button type="button" class="btn btn-light mt-md-4">
                   More..
                 </button>
               </p>
             </div>
             <div class="col col-md-3 col-5 mx-1 my-4">
-              <img
-                src="images/TV_Derana_Logo.png"
-                alt="project_img"
-                class="img-project img-fluid"
-              />
+              <img src="images/TV_Derana_Logo.png" alt="project_img" class="img-project img-fluid" />
               <p class="img__description p-2">
                 Website for TV Derana, Sri Lanka's Premium Entertainment
                 Channel<br />
@@ -263,10 +210,7 @@
               <div class="row social__icons justify-content-center">
                 <div class="col col-auto">
                   <a href="https://www.facebook.com/" target="_blank">
-                    <i
-                      class="fa fa-facebook-square fa-2x"
-                      aria-hidden="true"
-                    ></i>
+                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
                   </a>
                 </div>
                 <div class="col col-auto">
@@ -289,7 +233,7 @@
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
-                </script><br/>
+                </script><br />
                 Pulinda Dissanayake | All Rights Reserved
               </h6>
             </div>
@@ -297,25 +241,46 @@
         </div>
       </div>
     </div>
-    
+  </div>
 
+  <!-- Contact Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <div class="row p-3">
+            <div class="col col-md-7 col-12 align-self-center">
+              <img src="images/contact.png" alt="developer" class="img-fluid contact_img" />
+            </div>
+            <div class="col col-md-5 col-12 p contact_form">
+              <h4>Got a Question?</h4>
+              <h6>Keep in touch with us. We are here for you.</h6>
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+              <input type="text" placeholder="Mobile Number">
+              <textarea placeholder="Question" rows="5"></textarea>
+              <div class="text-right">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="home.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="home.js"></script>
+</body>
+
 </html>
